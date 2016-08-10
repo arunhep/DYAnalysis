@@ -1,0 +1,31 @@
+# Compiled source #
+###################
+*.so
+*.pyc
+*_cc.d
+*_hh.d
+*_C.d
+
+# Logs #
+########
+*.log
+*.png
+*.pdf
+*.eps
+*.gif
+# ROOT files, ntuples #
+#######################
+*.root
+
+# Local directories where output goes #
+#######################################
+ElectronNtupler/test/DYtoEESamples*
+ElectronNtupler/test/crab_projects_mc
+ElectronNtupler/test/Backgrounds
+ElectronNtupler/test/Data
+ElectronNtupler/test/*Calibrated
+# ... none at the moment ...
+
+# Backup copies #
+#################
+*~
