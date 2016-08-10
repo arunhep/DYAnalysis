@@ -6,9 +6,9 @@ cd CMSSW_7_6_3/src
 
 cmsenv
 
-git clone https://github.com/arunhep/DYAnalysis.git
+git cms-merge-topic -u matteosan1:smearer_76X
 
-git cms-merge-topic -u matteosan1:smearer_76X //Check out the packages for smearing
+git clone https://github.com/arunhep/DYAnalysis.git
 
 scramv1 b -j 4
 
@@ -28,6 +28,7 @@ cmsRun runElectrons_smeared.py
 
 2. Look for "isMC" and "isSIG" and change them to True and False accordingly. "isSig" is only true if you are running on DY MC.
 
+3. Dont forget to change the input file.
 
 Twiki for Smearing : https://twiki.cern.ch/twiki/bin/viewauth/CMS/EGMSmearer#Energy_smearing_and_scale_co_AN1
 
@@ -39,7 +40,7 @@ cd EgammaAnalysis/ElectronTools/python
 
 vim calibratedElectronsRun2_cfi.py
 
-Change the "isMC" parameter accordingly. 
+Change the "isMC" parameter accordingly and then compile.
 
 Also, one can change the source of electrons : electrons = cms.InputTag('selectedElectrons'),
 
