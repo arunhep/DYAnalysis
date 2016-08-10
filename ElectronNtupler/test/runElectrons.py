@@ -19,10 +19,6 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10000) )
 #process.GlobalTag.globaltag = 'GR_E_V49::All'                                                 #Data
 
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_condDBv2_cff")
-#process.GlobalTag.globaltag = cms.string("74X_dataRun2_v4")
-#process.GlobalTag.globaltag = cms.string("74X_dataRun2_reMiniAOD_v0")                                     #Data
-#process.GlobalTag.globaltag = cms.string("74X_dataRun2_Prompt_v4")
-#process.GlobalTag.globaltag = cms.string("74X_mcRun2_asymptotic_v2")                                      #MC
 #process.GlobalTag.globaltag = cms.string("76X_mcRun2_asymptotic_v12")
 process.GlobalTag.globaltag = cms.string("76X_dataRun2_v15")
 process.RandomNumberGeneratorService = cms.Service("RandomNumberGeneratorService",
@@ -46,27 +42,6 @@ inputFilesMiniAOD = cms.untracked.vstring(
 
 '/store/data/Run2015D/SingleElectron/MINIAOD/16Dec2015-v1/20000/00050EF1-F9A6-E511-86B2-0025905A48D0.root'
 
-# '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_120_200/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/0E8B1194-E4B8-E511-95B3-5065F38172A1.root',
-# '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_120_200/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/2C4172E1-20B9-E511-8B08-001F290860E4.root',
-# '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_120_200/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/E04D6009-E1B8-E511-B1AB-002590D9D9E4.root'
-
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_200_400/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/70000/28640CCE-8FB8-E511-B8FC-001EC9ADE609.root',
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_200_400/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/70000/4E4DD4D9-8EB8-E511-83FA-001EC9ADDB5F.root',
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_200_400/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/70000/66EDE195-8FB8-E511-8722-001EC9ADE1C7.root'
- #      '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_400_800/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/BA2A2D3F-9BB8-E511-AA64-00E08148331D.root',
- #      '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_400_800/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/FC07F2C5-99B8-E511-806D-3085A9262DA0.root',
- #      '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_400_800/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/FE4E0E8E-99B8-E511-B258-F46D042E833B.root' 
-
- #      '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_800_1400/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/62309FF3-21B8-E511-969B-90B11C2CB7A9.root',
- #      '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_800_1400/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/789459F1-21B8-E511-BA12-0CC47A6C1056.root',
- #      '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_800_1400/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/CAAC6FF3-21B8-E511-BB37-0CC47A13D284.root'
-
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_1400_2300/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/1CD8F1D3-73C7-E511-960D-3417EBE64591.root',
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_1400_2300/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/DA253125-73C7-E511-8FE1-002481ACED50.root',
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_1400_2300/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/E6AB07D5-73C7-E511-BED4-3417EBE644F2.root'
-
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_2300_3500/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/84571177-6AB8-E511-B503-002590E505FE.root',
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_2300_3500/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/B0C801C6-6AB8-E511-AEF6-001EC9ADDB5F.root',
 #       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_2300_3500/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/C84500E1-6BB8-E511-A9D6-002590E505FE.root'
 
 )
@@ -208,9 +183,5 @@ process.TFileService = cms.Service("TFileService",
                                    )
 
 
-#process.p = cms.Path(process.egmGsfElectronIDSequence * process.primaryVertexFilter * process.ntupler)
-
 #process.p = cms.Path(process.selectedElectrons + process.calibratedPatElectrons + process.egmGsfElectronIDSequence + process.primaryVertexFilter + process.ntupler) 
-
 process.p = cms.Path(process.egmGsfElectronIDSequence * process.primaryVertexFilter * process.ntupler)
-#process.p = cms.Path(process.primaryVertexFilter * process.ntupler)
