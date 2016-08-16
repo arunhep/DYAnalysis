@@ -1,0 +1,452 @@
+
+Processing dieleMass.c...
+Bin  = 15   20
+data: 2426
+Total MC: 2674.37
+Ratio = 0.90713
+DYEE = 2553.59
+DYTauTau = 4.39252
+ttbar = 101.75
+diBoson = 14.6321
+WJets = 64.4673
+*****************************
+Bin  = 20   25
+data: 2091
+Total MC: 2193.7
+Ratio = 0.953184
+DYEE = 2030.88
+DYTauTau = 10.7162
+ttbar = 137.696
+diBoson = 14.4062
+WJets = -1.59507
+*****************************
+Bin  = 25   30
+data: 1891
+Total MC: 1920.96
+Ratio = 0.984406
+DYEE = 1719.61
+DYTauTau = 15.942
+ttbar = 167.493
+diBoson = 17.9102
+WJets = 41.4531
+*****************************
+Bin  = 30   35
+data: 1771
+Total MC: 1900.19
+Ratio = 0.932014
+DYEE = 1659.97
+DYTauTau = 24.2141
+ttbar = 195.758
+diBoson = 20.2489
+WJets = 53.0898
+*****************************
+Bin  = 35   40
+data: 2196
+Total MC: 2198.98
+Ratio = 0.998646
+DYEE = 1851.35
+DYTauTau = 96.9797
+ttbar = 226.729
+diBoson = 23.919
+WJets = 68.4784
+*****************************
+Bin  = 40   45
+data: 2701
+Total MC: 2746.11
+Ratio = 0.983573
+DYEE = 2223.37
+DYTauTau = 235.295
+ttbar = 255.652
+diBoson = 31.7901
+WJets = 64.9538
+*****************************
+Bin  = 45   50
+data: 3337
+Total MC: 3434.24
+Ratio = 0.971686
+DYEE = 2792.63
+DYTauTau = 316.524
+ttbar = 283.134
+diBoson = 41.9467
+WJets = 62.4455
+*****************************
+Bin  = 50   55
+data: 4016
+Total MC: 4328.39
+Ratio = 0.927827
+DYEE = 3571.17
+DYTauTau = 399.031
+ttbar = 309.201
+diBoson = 48.988
+WJets = 76.5858
+*****************************
+Bin  = 55   60
+data: 5285
+Total MC: 5445.48
+Ratio = 0.970531
+DYEE = 4610.01
+DYTauTau = 458.309
+ttbar = 331.894
+diBoson = 45.2574
+WJets = 31.3192
+*****************************
+Bin  = 60   64
+data: 5181
+Total MC: 5743.71
+Ratio = 0.90203
+DYEE = 5092.41
+DYTauTau = 335.526
+ttbar = 270.182
+diBoson = 45.5959
+WJets = 42.8032
+*****************************
+Bin  = 64   68
+data: 6237
+Total MC: 6670.16
+Ratio = 0.93506
+DYEE = 6078.16
+DYTauTau = 268.076
+ttbar = 274.731
+diBoson = 49.1911
+WJets = 59.7252
+*****************************
+Bin  = 68   72
+data: 7652
+Total MC: 7949.34
+Ratio = 0.962596
+DYEE = 7455.26
+DYTauTau = 165.547
+ttbar = 272.184
+diBoson = 56.3487
+WJets = 55.8777
+*****************************
+Bin  = 72   76
+data: 10634
+Total MC: 11055.3
+Ratio = 0.961889
+DYEE = 10581.5
+DYTauTau = 135.005
+ttbar = 277.815
+diBoson = 60.9592
+WJets = 68.8611
+*****************************
+Bin  = 76   81
+data: 23898
+Total MC: 23709.2
+Ratio = 1.00796
+DYEE = 23190.4
+DYTauTau = 87.7995
+ttbar = 339.894
+diBoson = 91.1346
+WJets = 42.034
+*****************************
+Bin  = 81   86
+data: 77470
+Total MC: 71317.3
+Ratio = 1.08627
+DYEE = 70757.1
+DYTauTau = 50.1683
+ttbar = 331.864
+diBoson = 178.128
+WJets = 88.7999
+*****************************
+Bin  = 86   91
+data: 374162
+Total MC: 405454
+Ratio = 0.922823
+DYEE = 404278
+DYTauTau = 16.3943
+ttbar = 322.109
+diBoson = 836.732
+WJets = 23.4526
+*****************************
+Bin  = 91   96
+data: 340619
+Total MC: 388679
+Ratio = 0.87635
+DYEE = 387563
+DYTauTau = 9.02016
+ttbar = 304.682
+diBoson = 801.958
+WJets = 56.2472
+*****************************
+Bin  = 96   101
+data: 44763
+Total MC: 47424.8
+Ratio = 0.943872
+DYEE = 46999.2
+DYTauTau = 1.14925
+ttbar = 292.237
+diBoson = 132.263
+WJets = 49.0764
+*****************************
+Bin  = 101   106
+data: 14020
+Total MC: 14737.3
+Ratio = 0.95133
+DYEE = 14377.5
+DYTauTau = 7.69077
+ttbar = 284.114
+diBoson = 67.9983
+WJets = 26.9654
+*****************************
+Bin  = 106   110
+data: 6157
+Total MC: 6449.35
+Ratio = 0.95467
+DYEE = 6186.22
+DYTauTau = 4.21895
+ttbar = 215.968
+diBoson = 42.938
+WJets = 11.9434
+*****************************
+Bin  = 110   115
+data: 4901
+Total MC: 5153.44
+Ratio = 0.951016
+DYEE = 4856.02
+DYTauTau = 5.25406
+ttbar = 254.117
+diBoson = 38.0437
+WJets = 28.5823
+*****************************
+Bin  = 115   120
+data: 3561
+Total MC: 3609.4
+Ratio = 0.986592
+DYEE = 3323.65
+DYTauTau = 5.2533
+ttbar = 241.089
+diBoson = 39.4032
+WJets = 36.2599
+*****************************
+Bin  = 120   126
+data: 3048
+Total MC: 3191.33
+Ratio = 0.955087
+DYEE = 2881.39
+DYTauTau = 5.95708
+ttbar = 265.881
+diBoson = 38.0994
+WJets = 61.2321
+*****************************
+Bin  = 126   133
+data: 2688
+Total MC: 2668.38
+Ratio = 1.00735
+DYEE = 2331.37
+DYTauTau = 6.76407
+ttbar = 287.526
+diBoson = 42.7151
+WJets = 50.4924
+*****************************
+Bin  = 133   141
+data: 2196
+Total MC: 2255.32
+Ratio = 0.973696
+DYEE = 1922.23
+DYTauTau = 2.24787
+ttbar = 290.899
+diBoson = 39.9464
+WJets = 37.1041
+*****************************
+Bin  = 141   150
+data: 1934
+Total MC: 1870.65
+Ratio = 1.03386
+DYEE = 1541.64
+DYTauTau = 3.71753
+ttbar = 292.856
+diBoson = 32.436
+WJets = -19.3421
+*****************************
+Bin  = 150   160
+data: 1548
+Total MC: 1515.84
+Ratio = 1.02122
+DYEE = 1198.79
+DYTauTau = 1.1833
+ttbar = 288.833
+diBoson = 27.0319
+WJets = 32.4357
+*****************************
+Bin  = 160   171
+data: 1347
+Total MC: 1334.87
+Ratio = 1.00908
+DYEE = 1031.89
+DYTauTau = 4.956
+ttbar = 268.132
+diBoson = 29.8911
+WJets = 9.99281
+*****************************
+Bin  = 171   185
+data: 1287
+Total MC: 1237.6
+Ratio = 1.03992
+DYEE = 915.397
+DYTauTau = -0.117358
+ttbar = 288.218
+diBoson = 34.0981
+WJets = 44.7062
+*****************************
+Bin  = 185   200
+data: 953
+Total MC: 963.89
+Ratio = 0.988702
+DYEE = 689.07
+DYTauTau = 0.572892
+ttbar = 246.276
+diBoson = 27.9708
+WJets = 46.8879
+*****************************
+Bin  = 200   220
+data: 949
+Total MC: 942.577
+Ratio = 1.00681
+DYEE = 650.536
+DYTauTau = 2.24817
+ttbar = 261.631
+diBoson = 28.1613
+WJets = 9.27584
+*****************************
+Bin  = 220   243
+data: 802
+Total MC: 732.066
+Ratio = 1.09553
+DYEE = 489.983
+DYTauTau = 3.26848
+ttbar = 214.285
+diBoson = 24.5297
+WJets = -9.81241
+*****************************
+Bin  = 243   273
+data: 606
+Total MC: 619.462
+Ratio = 0.978268
+DYEE = 405.808
+DYTauTau = 1.03157
+ttbar = 190.197
+diBoson = 22.4257
+WJets = 19.4657
+*****************************
+Bin  = 273   320
+data: 589
+Total MC: 564.658
+Ratio = 1.04311
+DYEE = 362.321
+DYTauTau = 1.72425
+ttbar = 178.54
+diBoson = 22.0723
+WJets = 30.2707
+*****************************
+Bin  = 320   380
+data: 398
+Total MC: 362.214
+Ratio = 1.0988
+DYEE = 230.194
+DYTauTau = 1.27761
+ttbar = 112.543
+diBoson = 18.1999
+WJets = -3.53242
+*****************************
+Bin  = 380   440
+data: 227
+Total MC: 193.275
+Ratio = 1.17449
+DYEE = 128.157
+DYTauTau = 1.88107
+ttbar = 53.6197
+diBoson = 9.61716
+WJets = 0
+*****************************
+Bin  = 440   510
+data: 97
+Total MC: 115.989
+Ratio = 0.836287
+DYEE = 77.8724
+DYTauTau = 0.147213
+ttbar = 30.4389
+diBoson = 7.53033
+WJets = 8.15959
+*****************************
+Bin  = 510   600
+data: 68
+Total MC: 72.8691
+Ratio = 0.93318
+DYEE = 52.5757
+DYTauTau = 0.0926677
+ttbar = 16.1657
+diBoson = 4.03497
+WJets = 0
+*****************************
+Bin  = 600   700
+data: 45
+Total MC: 36.6157
+Ratio = 1.22898
+DYEE = 27.8652
+DYTauTau = 0.0392692
+ttbar = 7.19766
+diBoson = 1.5135
+WJets = 0
+*****************************
+Bin  = 700   830
+data: 15
+Total MC: 21.99
+Ratio = 0.682128
+DYEE = 17.3897
+DYTauTau = 0.0335453
+ttbar = 3.52505
+diBoson = 1.04167
+WJets = 9.81241
+*****************************
+Bin  = 830   1000
+data: 9
+Total MC: 13.2623
+Ratio = 0.678613
+DYEE = 9.87055
+DYTauTau = 0.0211164
+ttbar = 1.69101
+diBoson = 1.67966
+WJets = 0
+*****************************
+Bin  = 1000   1200
+data: 4
+Total MC: 5.03757
+Ratio = 0.794034
+DYEE = 4.57191
+DYTauTau = 0.00900397
+ttbar = 0.456652
+diBoson = 0
+WJets = 0
+*****************************
+Bin  = 1200   1500
+data: 2
+Total MC: 3.0045
+Ratio = 0.665669
+DYEE = 2.46639
+DYTauTau = 0.00980278
+ttbar = 0.152342
+diBoson = 0.375963
+WJets = 0
+*****************************
+Bin  = 1500   2000
+data: 1
+Total MC: 1.24619
+Ratio = 0.802444
+DYEE = 0.959642
+DYTauTau = 0.000826876
+ttbar = 0.0226057
+diBoson = 0.26312
+WJets = 0
+*****************************
+Bin  = 2000   3000
+data: 0
+Total MC: 0.263318
+Ratio = 0
+DYEE = 0.263104
+DYTauTau = 0.000214416
+ttbar = 0
+diBoson = 0
+WJets = 0
+*****************************
