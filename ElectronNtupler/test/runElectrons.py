@@ -12,7 +12,7 @@ process.load("Geometry.CaloEventSetup.CaloTopology_cfi");
 #
 # Define input data to read
 #
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10000) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100000) )
 
 #process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_cff")
 #process.GlobalTag.globaltag = 'MCRUN2_74_V9::All'                                             #MC
@@ -40,9 +40,24 @@ inputFilesAOD = cms.untracked.vstring(
 inputFilesMiniAOD = cms.untracked.vstring(
     # MiniAOD test files from /DYJetsToLL_M-50_13TeV-madgraph-pythia8/Phys14DR-PU20bx25_PHYS14_25_V1-v1/MINIAODSIM
 
-'/store/data/Run2015D/SingleElectron/MINIAOD/16Dec2015-v1/20000/00050EF1-F9A6-E511-86B2-0025905A48D0.root'
+#'/store/data/Run2015D/SingleElectron/MINIAOD/16Dec2015-v1/20000/00050EF1-F9A6-E511-86B2-0025905A48D0.root'
+#'/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_2300_3500/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/C84500E1-6BB8-E511-A9D6-002590E505FE.root'
 
-#       '/store/mc/RunIIFall15MiniAODv2/ZToEE_NNPDF30_13TeV-powheg_M_2300_3500/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/C84500E1-6BB8-E511-A9D6-002590E505FE.root'
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/02DC197B-9AC9-E511-A223-0025907D244A.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/34D22204-9AC9-E511-908B-00259029ED16.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/4A556A46-9AC9-E511-B255-0CC47A0AD6EA.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/648B2234-9AC9-E511-9567-00259029E720.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/8A92AB05-9AC9-E511-A82D-00259048A862.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/9447F704-9AC9-E511-8BC1-0025904CBF10.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/B2D65535-9AC9-E511-AF1E-00259029E84C.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/D2CB6B46-9AC9-E511-9F7B-0CC47A0AD6EA.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/10000/FA5C6629-9AC9-E511-B8FA-0CC47A0AD6EA.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/60000/1653D32B-1FC8-E511-88F4-002590D9D9DA.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/60000/28346BD3-ABC7-E511-8D27-001E67DFF6E0.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/60000/3A1831CC-19C8-E511-B75F-00304867FE73.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/60000/4204342F-1FC8-E511-B613-003048CBA444.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/60000/76E9BC2D-24C8-E511-8DE4-0025901ABD1A.root',
+       '/store/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-200to400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12_ext1-v1/60000/928D53F2-E5C7-E511-ABF9-002264031B48.root'
 
 )
 useAOD = False
@@ -98,8 +113,8 @@ process.ntupler = cms.EDAnalyzer('SimpleElectronNtupler',
                                  #
                                  # Common to all formats objects
                                  #
-                                 isMC     = cms.untracked.bool(False),
-				 isSIG    = cms.untracked.bool(False),
+                                 isMC     = cms.untracked.bool(True),
+				 isSIG    = cms.untracked.bool(True),
 				 trigger  = cms.InputTag("TriggerResults::HLT"),
 				 prescale = cms.InputTag("patTrigger"),
 				 #pileup   = cms.InputTag("addPileupInfo"),
