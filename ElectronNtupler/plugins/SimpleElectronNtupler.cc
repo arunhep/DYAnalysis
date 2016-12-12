@@ -986,6 +986,9 @@ SimpleElectronNtupler::analyze(const edm::Event& iEvent, const edm::EventSetup& 
 
 
       // gen Photon
+      if(abs(genlep.pdgId())==22) {
+     cout << " Photon FOUND " << "  " << "And the Mother is  = " << abs(genlep.mother(0)->pdgId()) << endl;
+}
       if(abs(genlep.pdgId())==22 && abs(genlep.mother(0)->pdgId())==11){
 
 	genPhoton_Px_.push_back(genlep.px());
